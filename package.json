@@ -1,0 +1,46 @@
+{
+  "dependencies": {
+    "@bazar/shared": "file:../shared",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/jest": "^29.5.1",
+    "@types/jsonwebtoken": "^9.0.1",
+    "@types/node": "^18.15.11",
+    "@types/validator": "^13.7.15",
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jest": "^29.5.0",
+    "joi": "^17.9.1",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.4",
+    "nodemon": "^2.0.22",
+    "pino": "^8.12.1",
+    "pino-pretty": "^10.0.0",
+    "validator": "^13.9.0"
+  },
+  "devDependencies": {
+    "@types/morgan": "^1.9.4",
+    "dotenv": "^16.0.3",
+    "morgan": "^1.10.0",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.0.4"
+  },
+  "name": "bazar",
+  "description": "fully organized environment to buy and sell handmade products from and to community",
+  "version": "1.0.0",
+  "main": "src/server.ts",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "nodemon src/server.ts",
+    "debug": "nodemon --config nodemon.json --inspect src/server.ts",
+    "build": "tsc",
+    "generate-env-types": "node src/utils/generateEnvTypes.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

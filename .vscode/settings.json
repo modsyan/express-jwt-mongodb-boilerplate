@@ -1,0 +1,8 @@
+{
+  "cSpell.words": [
+    "healthz",
+    "middlewares",
+    "pino"
+  ],
+  "jest.rootPath": "server"
+}
