@@ -1,5 +1,5 @@
 
 
 # Quick Starter
-Express Template Project
+Expressjs and MongoD boilerplate authentication and autherization
 
